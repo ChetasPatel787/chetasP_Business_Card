@@ -1,0 +1,60 @@
+/*
+    Chetas Patel Business Card- CSS file
+    Author: Chetas Patel
+    Date: April 27th, 2024
+    */
+
+
+body {
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 25%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    width: 373px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background: #adb5bd;
+    border-bottom: 6px solid #fca311;
+    border-radius: 3%;
+}
+.cardMain{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #14213d;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.email{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    height: 15px;
+    margin-right: 8px;
+}
+.Licon{
+    height: 20px;
+    margin-top: 3px;
+}
+.subMail{
+    display: flex;
+    justify-content: start;
+    margin-top: 5px;
+}
+.contactText{
+    margin: 0px;
+    color: #ba181b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75);
+}
